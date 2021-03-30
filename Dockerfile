@@ -1,6 +1,6 @@
 FROM node:lts
 
-COPY nodejs /home/node/app
+COPY . /home/node/app
 
 WORKDIR /home/node/app
 
