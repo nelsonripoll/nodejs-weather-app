@@ -26,3 +26,5 @@ Watch extensions ```.js``` and ```.hbs```.
 ```
 PORT=3000 nodemon app.js --ext js,hbs
 ```
+
+## Heroku
