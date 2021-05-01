@@ -27,4 +27,11 @@ Watch extensions ```.js``` and ```.hbs```.
 PORT=3000 nodemon app.js --ext js,hbs
 ```
 
+## Buildah & Podman
+
+```
+buildah bud -t nodejs-weather-app .
+podman run -dt -p 3000:3000 --name nodejs-weather-app localhost/nodejs-weather-app
+```
+
 ## Heroku
